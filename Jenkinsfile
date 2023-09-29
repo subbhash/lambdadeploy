@@ -58,7 +58,7 @@ pipeline {
 
                 script {
 
-                    sh "aws lambda update-function-code --function-name $LAMBDA_FUNCTION_NAME --image-uri $public.ecr.aws/l6x8h9b3/jenkinsecr:$LATEST"
+                    sh "aws lambda update-function-code --function-name $LAMBDA_FUNCTION_NAME --image-uri $ECR_REPO_URI:$IMAGE_TAG"
 
                     
 
