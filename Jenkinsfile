@@ -18,7 +18,7 @@ pipeline {
 
         ECS_SERVICE = 'Jenkins-JenkinsService-NnQOe2Ia5QuL'
 
-        TASK_DEFINITION = 'jenkins-task:ACTIVE'
+        TASK_DEFINITION = 'jenkins-task:jenkins-task:4'
 
     }
 
